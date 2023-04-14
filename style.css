@@ -206,7 +206,7 @@ nav li:hover {
     align-items: center;
     padding: 50px auto;
     background-color: #ffffff;
-    padding: 50px;
+    padding: 60px;
 }
 
 .left-m1 {
@@ -228,7 +228,7 @@ nav li:hover {
     align-items: center;
     padding: 50px auto;
     background-color: #ececec;
-    padding: 50px;
+    padding: 60px;
 }
 
 .leftm2 {
@@ -291,6 +291,11 @@ nav li:hover {
 
 .footer1 a {
     color: #fff;
+    text-decoration: none;
+}
+
+.footer1 a:hover {
+    text-decoration: underline;
 }
 
 .p1 {
@@ -354,6 +359,11 @@ nav li:hover {
     margin: 40px 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.socials :hover {
+    fill: #404eed;
+    opacity: 1;
 }
 
 #lang-drop {
